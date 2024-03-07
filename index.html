@@ -9,92 +9,135 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <!--nav component-->
+        <header>
+        <!--bootstrap nav component-->
         <nav class="nav">
-            <a class="nav-link active" aria-current="page" href="#">Introduction</a>
-            <a class="nav-link" href="#">Problem</a>
-            <a class="nav-link" href="#">Research</a>
-            <a class="nav-link" href="#">Testing</a>
-            <a class="nav-link" href="#">Prototype</a>
-            <a class="nav-link" href="#">Solution</a>
-            <div class="inline-block logo">
-                <img src="images/logo2.png" width="200" height="200" alt="logo">
-            </div>
+            
+            <a class="nav-link navbar-right" href="https://rachelmanu.github.io/UX_UI_HW_19/#workSection">&laquo;Go Back</a>
+            <a class="nav-link" href="intro">Introduction</a>
+            <a class="nav-link" href="#problem">Problem</a>
+            <a class="nav-link" href="#research">Research</a>
+            <a class="nav-link" href="#iteration">Iteration</a>
+            <a class="nav-link" href="#prototype">Prototype</a>
           </nav>
-         
-    <section class="about" id="aboutSection">
-        <div class="contentAbout">
-            <div class="aboutImage">
-            <img class="profile" src="images/headerimage.jpg" width="450" height="450">
+          
+        </header>
+          <div class="wave-container" id="intro">  
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <h1>Introduction</h1> 
+                        <p>Our team worked collaboratively on every step of the process from initial concept, to research, ideation and design. We used Miro, Figma and good old fashioned pencil and paper during our collaborative design process
+                        </p>
+                      </div>
+                      <div class="col">
+                        <img src="/Images/GriefGuide.png">
+                      </div>
+                    </div>
+          </div>
+          </div>
+          <div class="container" id="problem">
+            <div class="jumbotron">
+              <h1>Problem</h1>
+              <p>As a result of the death of her husband, Allison needs to find a safe space that offers consistent, reliable support along with others who are experiencing a similar loss to hers.<br>
+                How might GriefGuide assist those going through the grief process by providing support to its users?</p>
             </div>
-           <div class="aboutP"> 
-            <h2> Introduction</h2>
-            <p>
-                Rachel Manu is a visual designer based in Arlington, VA who for almost a decade has been in the SaaS industry. Her expertise lies at the intersection of the technical and creative with a knack for connecting and maintaining client relationships. She has been rooted in the tech realm, troubleshooting software bugs, managing projects, creating beautiful interfaces, and mentoring bright minds in customer operations. <br><br>
-                Catch her in action, balancing creativity with tech know-how, and spreading good vibes in every project she encounters!
-            </p>
-            <br>
-            <button>Download Resume</button>
             </div>
-        </div>
+            <div class="container" id="research">
+                <div class="jumbotron">
+                    <h1>Research</h1>
+                  </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          User Persona
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <img src="/Images/User persona.png" height="400" width="650">
 
-    </section>
-    <div class="wave-container"></div>
-    <section class="skills" id="skillsSection">
-        <h2> My Skills</h2>
-            <div class="skillsContent">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Feature Priority Matrix
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                                <img src="/Images/feature matrix.png">
 
-            <div class="skillGrid1">
-            <p>
-             COLLABORATION: Proven experience as a liaison, mentor, and presenter, adept at coordinating with cross-functional teams and conducting interviews.
-            <br><br>
-                DILIGENCE: Meticulous in tasks such as creating visually striking designs, troubleshooting technical issues, and ensuring adherence to project deadlines and budgets.
-            </p>
-        </div>
-        <div class="skillGrid2">
-            <p>
-                CLIENT-FOCUSED: Extensive background in customer support, training, and satisfaction, including hosting webinars, responding to technical inquiries, and guiding clients through software functionalities.
-            <br><br>
-                POSITIVITY: Fosters a supportive atmosphere through enthusiasm and a can-do attitude, enhancing collaboration and client relationships.
-            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          User Journey Map
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <img src="/Images/journey map.png">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
-        </div>
-        <div class="skillImages">
-            <img src="images/figma (1).png" width="200" height="100">
-            <img src="images/codes.png" width="200" height="75">
-            <img src="images/trello.png" width="200" height="60">
-            <img src="images/gsuite.png" width="150" height="100">
-        </div>
-    </div>
-    </section>
-    <!--<div class="wave-container2"></div> -->
-    <section class="work" id="workSection">
-        <div class="content">
-            <h2> My Work</h2>
-            <div class="workImageContainer">
-
-                <div class="workImage1">
-                    <img src="images/GriefGuide.png" width="350" height="350"/>
-                    <h3>Grief Guide</h3>
-                    <p>GriefGuide is a mobile app for helping people who are experiencing grief to connect to others during their journey.</p>
-                    <button class="view">View</button>
-                </div>
-        
-                <div class="workImage2">
-                <img src="images/40plus.png" width="350" height="350">
-                <h3>Forty Plus of<br> Greater Washington</h3>
-                <p>Forty Plus is a organization in the Washington D.C. area catering to older adults in a career transition.</p>
-                <button class="view">View</button>
-                </div>
+            <div class="wave-container2">  
+            <div class="container" id="iteration">
+                <div class="jumbotron">
+                    <h1>Iteration</h1>
+                    <p>As a result of the death of her husband, Allison needs to find a safe space that offers consistent, reliable support along with others who are experiencing a similar loss to hers.<br><br>
+                      How might GriefGuide assist those going through the grief process by providing support to its users?
+                        </p>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                       <h3>Sketches</h3>
+                      </div>
+                      <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/sketches2.png" class="card-img-top" alt="sketch">
+                            <div class="card-body">
+                              <p class="card-text">Initial resources page sketch shows different categories of resources.</p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/sketches.png" class="card-img-top" alt="sketch">
+                            <div class="card-body">
+                              <p class="card-text">Initial homepage sketch shows groups to join and a search bar.</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                         <h3> Wireframes</h3>
+                        </div>
+                        <div class="col-8">
+                          <img src="/Images/wireframes.png" width="500" height="300">
+                        </div>
+                  </div>
             </div>
-        </div>
-    </section>
-    <div class="wave-container"></div>
-    <section class="contact" id="contactSection">
-        <h2> Prototype</h2>
-        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwXdYx0V9hatCXq797lE0pj%2FGriefGuide-app-Final-101523%3Ftype%3Ddesign%26node-id%3D1-212%26t%3DWGENEBxFQsOvnEBX-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A179%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe>
-
-    </section>
+             </div>
+             </div>
+            <div  id="prototype">
+                <div class="container jumbotron">
+                    <h1>Prototype</h1>
+                     <p>We were able to create a lo-fi prototype:
+                        </p>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwXdYx0V9hatCXq797lE0pj%2FGriefGuide-app-Final-101523%3Ftype%3Ddesign%26node-id%3D1-212%26t%3DWGENEBxFQsOvnEBX-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A179%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe>
+                    </div>
+                    </div>
     <footer>
         <p>&copy; Copyright 2024</p>
         <p>rachelkmanu@gmail.com</p>
